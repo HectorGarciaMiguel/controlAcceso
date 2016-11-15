@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face
+{
+ font-family: 'OpenSans';
+ src: url('/open-sans/OpenSans-Light.ttf');
+}
+
+body{
+
+	background-color:#7DDFD6;
+}
+
+div.titulo{
+	max-width:100%;
+    margin: 20px auto;
+	background:#FFFFFF;
+	font-family:"OpenSans";
+	border-style:solid;
+	border-color:#099;
+	border-width:2px;
+	border-radius: 20px 20px 20px 20px;	
+	padding:10px;
+
+	box-shadow: 5px 5px 7px #333;
+   -webkit-box-shadow: 5px 5px 7px #333;
+   -moz-box-shadow: 5px 5px 7px #333;
+   -o-box-shadow: 5px 5px 7px #333;
+   -ms-box-shadow: 5px 5px 7px #333;
+   -chrome-box-shadow: 5px 5px 7px #333;
+}
+
+
+div.celda{
+	max-width:1100px;
+	display:inline-block;
+    margin: 20px auto;
+	background:#FFFFFF;
+	font-family:"OpenSans";
+	border-style:solid;
+	border-color:#099;
+	border-width:2px;
+	border-radius: 20px 20px 20px 20px;	
+	padding:10px;
+
+	box-shadow: 5px 5px 7px #333;
+   -webkit-box-shadow: 5px 5px 7px #333;
+   -moz-box-shadow: 5px 5px 7px #333;
+   -o-box-shadow: 5px 5px 7px #333;
+   -ms-box-shadow: 5px 5px 7px #333;
+   -chrome-box-shadow: 5px 5px 7px #333;
+}
+#izquierda{
+	text-align:left;	
+}
+#centrado{
+	text-align:center;	
+}
+#derecha{
+	float:right;	
+}
+
+#vertical{
+	clear:left;	
+	display:inline-block;
+}
+
+
+div.vertical{
+	display:inline-block;
+    clear: left;	
+	border-style:solid;
+	border-color:#888;
+	border-width:1px;
+	border-radius: 7px 7px 7px 7px;	
+    padding:10px 10px 10px 10px;
+	margin: 30px auto;
+}
+
+
+div.linea{
+	display:inline-block;
+	border-style:solid;
+	border-color:#888;
+	border-width:1px;
+	border-radius: 7px 7px 7px 7px;	
+    padding:10px 10px 10px 10px;
+	margin: 30px auto;
+}
+
+h4.nodestacado{
+	text-align:center;
+	color:#999;	
+}
+
+p.error{
+	background-color:#F00;
+	color:#FFF;
+	text-align:center;
+	border-radius: 5px 5px 5px 5px;	
+	margin:5px;
+}
+
+p.correcto{
+	background-color:#090;
+	color:#FFF;
+	text-align:center;
+	border-radius: 5px 5px 5px 5px;	
+	margin:5px;
+}
+
+table{
+	border-color:#999;
+	border-collapse: collapse;
+}
+
+th{
+	background-color:#0C9;
+	color:#FFF;
+}
+
+.boton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#79bbff;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topleft:10px;
+	border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;
+	-moz-border-radius-topright:10px;
+	border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius-bottomleft:10px;
+	border-bottom-left-radius:10px;
+	text-indent:0;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:"OpenSans";
+	font-size:15px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #528ecc;
+}
+.boton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+}.boton:active {
+	position:relative;
+	top:1px;
+}
+
+
+aside{
+	float:left;
+	display:inline-block;
+}
+
+ul{
+	list-style:none;	
+}
+
+#circulo{
+     width: 5px;
+     height: 5px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #0099CC;
+	 text-align:center;
+	 font-size:20px;
+}	
+	
+.down {
+	 -webkit-transition: -webkit-transform 1s ease-out;
+	 -moz-transition: -moz-transform 1s ease-out;
+	 transition: transform 1s ease-out;
+}
+.down:hover {
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	transform: translateY(10px);;
+}
+.up {
+	 -webkit-transition: -webkit-transform 1s ease-out;
+	 -moz-transition: -moz-transform 1s ease-out;
+	 transition: transform 1s ease-out;
+}
+.up:hover {
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);;
+}
